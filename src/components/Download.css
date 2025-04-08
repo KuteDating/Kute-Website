@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Playfair+Display:wght@600&display=swap');
+
+.download {
+  background: linear-gradient(to right, #1a1a1a, #2a2a2a);
+  color: #ffffff;
+  padding: 5rem 2rem;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+}
+
+.download-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.download-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 4.5rem;
+  margin-bottom: 0.5rem;
+  color: #5de383;
+}
+
+.download-subtitle {
+  font-size: 1.25rem;
+  color: #cccccc;
+  margin-bottom: 2rem;
+}
+
+.unsupported-warning {
+  color: #ff4d4d;
+  font-size: 1.1rem;
+  background-color: rgba(255, 77, 77, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.store-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.store-icon {
+  height: 65px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.store-icon:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 15px rgba(255, 111, 97, 0.8));
+}
+
+/* === Responsive Styles === */
+@media (max-width: 1024px) {
+  .download-title {
+    font-size: 3.5rem;
+  }
+
+  .download-subtitle {
+    font-size: 1.15rem;
+  }
+
+  .store-icon {
+    height: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .download {
+    padding: 4rem 1.5rem;
+  }
+
+  .download-title {
+    font-size: 3rem;
+  }
+
+  .download-subtitle {
+    font-size: 1.05rem;
+  }
+
+  .store-icon {
+    height: 55px;
+  }
+
+  .unsupported-warning {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .download {
+    padding: 3rem 1rem;
+  }
+
+  .download-title {
+    font-size: 2.4rem;
+  }
+
+  .download-subtitle {
+    font-size: 1rem;
+  }
+
+  .store-links {
+    gap: 1.5rem;
+  }
+
+  .store-icon {
+    height: 50px;
+  }
+
+  .unsupported-warning {
+    font-size: 0.95rem;
+    padding: 0.75rem;
+  }
+}

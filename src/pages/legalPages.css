@@ -1,0 +1,122 @@
+/* Legal Pages - Bold, Modern, Classy Look */
+
+.legal-page {
+  background: linear-gradient(to right, #121212, #1c1c1c);
+  color: #f8f8f8;
+  font-family: 'Raleway', sans-serif;
+  padding: 5rem 2rem;
+  min-height: 100vh;
+  line-height: 1.8;
+}
+
+.legal-page h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #c4147e, #c315ac, #ff4e50);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.legal-page h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #5de383;
+}
+
+.legal-page p,
+.legal-page li {
+  font-size: 1.5rem;
+  color: #d0d0d0;
+  margin-bottom: 1rem;
+}
+
+.legal-page ul {
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+
+.legal-page section {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #333;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  margin-bottom: 3rem;
+}
+
+.legal-page a {
+  color: #ff4e50;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.legal-page a:hover {
+  color: #c315ac;
+}
+
+/* ✅ Responsive styles */
+@media (max-width: 1024px) {
+  .legal-page h1 {
+    font-size: 3.2rem;
+  }
+
+  .legal-page h2 {
+    font-size: 1.7rem;
+  }
+
+  .legal-page p,
+  .legal-page li {
+    font-size: 1.3rem;
+  }
+
+  .legal-page section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .legal-page h1 {
+    font-size: 2.5rem;
+  }
+
+  .legal-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .legal-page p,
+  .legal-page li {
+    font-size: 1.1rem;
+  }
+
+  .legal-page section {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .legal-page {
+    padding: 3rem 1.5rem;
+  }
+
+  .legal-page h1 {
+    font-size: 2rem;
+  }
+
+  .legal-page h2 {
+    font-size: 1.3rem;
+  }
+
+  .legal-page p,
+  .legal-page li {
+    font-size: 1rem;
+  }
+
+  .legal-page section {
+    padding: 1rem;
+  }
+}

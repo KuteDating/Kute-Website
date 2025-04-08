@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "kutewebapp"
+  },
+  "targets": {
+    "kutewebapp": {
+      "hosting": {
+        "kute": [
+          "kute"
+        ],
+        "kutedating": [
+          "kutedating"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

@@ -1,0 +1,82 @@
+.navbar {
+  background-color: #141414;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #f8f8f8;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #5de383;
+}
+
+/* --- Hamburger menu --- */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.menu-toggle span {
+  height: 3px;
+  width: 25px;
+  background: #f8f8f8;
+  border-radius: 5px;
+}
+
+/* --- Responsive styles --- */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 2rem;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    
+    /* Added white border */
+    border: 2px solid #ffffff;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-logo {
+    height: 35px;
+    left: 1rem;
+  }
+}
+
