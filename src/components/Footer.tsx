@@ -24,10 +24,11 @@ const Footer = () => {
 
         <div className="footer-column">
           <h4>COMPANY</h4>
-          <a href="#about">About Us</a>
+          <a href="/about">About Us</a>
           <a href="/terms">Terms & Conditions</a>
           <a href="/refund">Refund Policy</a>
           <a href="/contact">Contact Us</a>
+          <a href="/PrivacyPolicy">Privacy Policy</a>
         </div>
 
         <div className="footer-column">

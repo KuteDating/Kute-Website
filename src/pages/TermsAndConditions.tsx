@@ -33,7 +33,7 @@ const TermsAndConditions = () => {
 
         <h2 className="text-2xl font-semibold text-[#ff4e50] mb-4">5. Privacy</h2>
         <p className="mb-6">
-          Your use of the platform is also governed by our Privacy Policy, which outlines how we collect, use, and protect your information.
+          Your use of the platform is also governed by our <a href= "/PrivacyPolicy">Privacy Policy</a>, which outlines how we collect, use, and protect your information.
         </p>
 
         <h2 className="text-2xl font-semibold text-[#ff4e50] mb-4">6. Limitation of Liability</h2>

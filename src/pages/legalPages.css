@@ -1,122 +1,77 @@
-/* Legal Pages - Bold, Modern, Classy Look */
-
+/* Container */
 .legal-page {
-  background: linear-gradient(to right, #121212, #1c1c1c);
-  color: #f8f8f8;
-  font-family: 'Raleway', sans-serif;
-  padding: 5rem 2rem;
-  min-height: 100vh;
-  line-height: 1.8;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  color: #f0f0f0;
+  background-color: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  line-height: 1.7;
 }
 
+/* Title (h1) */
 .legal-page h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 4rem;
-  margin-bottom: 2rem;
-  background: linear-gradient(90deg, #c4147e, #c315ac, #ff4e50);
-  -webkit-background-clip: text;
+  font-size: 2.75rem;
+  font-weight: bold;
+  background: linear-gradient( #c4147e, #c315ac, #ff4e50);
   background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
   text-align: center;
+  margin-bottom: 20px;
 }
 
+
+/* Section headings (h2) */
 .legal-page h2 {
-  font-size: 2rem;
-  margin-top: 2rem;
-  color: #5de383;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #00ffff;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
-.legal-page p,
-.legal-page li {
-  font-size: 1.5rem;
-  color: #d0d0d0;
-  margin-bottom: 1rem;
+/* Paragraphs and list styling */
+.legal-page p {
+  margin-bottom: 20px;
+  color: #dddddd;
 }
 
 .legal-page ul {
-  padding-left: 1.5rem;
-  list-style: disc;
+  margin-left: 20px;
+  padding-left: 20px;
 }
 
-.legal-page section {
-  max-width: 900px;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid #333;
-  padding: 2.5rem;
-  border-radius: 2rem;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
-  margin-bottom: 3rem;
+.legal-page li {
+  margin-bottom: 10px;
+  color: #cccccc;
 }
 
-.legal-page a {
-  color: #ff4e50;
-  text-decoration: underline;
-  transition: color 0.3s ease;
+/* Footer or update timestamp */
+.legal-page .footer-note {
+  margin-top: 50px;
+  font-size: 0.85rem;
+  color: #999999;
+  text-align: center;
 }
 
-.legal-page a:hover {
-  color: #c315ac;
+/* Custom utility (if needed for center text) */
+.text-center {
+  text-align: center;
 }
 
-/* ✅ Responsive styles */
-@media (max-width: 1024px) {
-  .legal-page h1 {
-    font-size: 3.2rem;
-  }
-
-  .legal-page h2 {
-    font-size: 1.7rem;
-  }
-
-  .legal-page p,
-  .legal-page li {
-    font-size: 1.3rem;
-  }
-
-  .legal-page section {
-    padding: 2rem;
-  }
+/* Support/contact info section */
+.support-info p,
+.support-info span {
+  color: #dddddd;
 }
 
-@media (max-width: 768px) {
-  .legal-page h1 {
-    font-size: 2.5rem;
-  }
-
-  .legal-page h2 {
-    font-size: 1.5rem;
-  }
-
-  .legal-page p,
-  .legal-page li {
-    font-size: 1.1rem;
-  }
-
-  .legal-page section {
-    padding: 1.5rem;
-  }
+.support-info .icon {
+  color: #5de383;
 }
 
-@media (max-width: 480px) {
-  .legal-page {
-    padding: 3rem 1.5rem;
-  }
-
-  .legal-page h1 {
-    font-size: 2rem;
-  }
-
-  .legal-page h2 {
-    font-size: 1.3rem;
-  }
-
-  .legal-page p,
-  .legal-page li {
-    font-size: 1rem;
-  }
-
-  .legal-page section {
-    padding: 1rem;
-  }
+.support-info h2 {
+  color: #ff6f61;
 }

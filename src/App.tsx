@@ -14,6 +14,7 @@ import TermsAndConditions from './pages/TermsAndConditions.tsx';
 import RefundPolicy from './pages/RefundPolicy.tsx';
 import ContactUs from './pages/ContactUs.tsx';
 import ComingSoon from './pages/ComingSoon.tsx';
+import PrivacyPolicy from './pages/PrivacyPolicy.tsx';
 
 const Home = () => (
   <>
@@ -35,6 +36,9 @@ const App = () => {
         <Route path="/refund" element={<><Navbar /><RefundPolicy /><Footer /></>} />
         <Route path="/contact" element={<><Navbar /><ContactUs /><Footer /></>} />
         <Route path="/ComingSoon" element={<ComingSoon />} />
+        <Route path="/PrivacyPolicy" element={<><Navbar /><PrivacyPolicy /><Footer /></>} />
+        <Route path="/about" element={<><Navbar /><About /><Footer /></>} />
+
       </Routes>
     </Router>
   );
