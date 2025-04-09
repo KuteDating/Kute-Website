@@ -3,17 +3,7 @@ import "../components/Footer.css";
 const Footer = () => {
   return (
     <footer className="footer" id="footer">
-      <div className="newsletter">
-        <h3>JOIN OUR NEWSLETTER</h3>
-        <p>
-          Stay updated with the latest Kute features, updates, and relationship
-          tips.
-        </p>
-        <div className="newsletter-form">
-          <input type="email" placeholder="example@gmail.com" />
-          <button>Sign Up</button>
-        </div>
-      </div>
+      
 
       <div className="footer-links">
         <div className="footer-column">
