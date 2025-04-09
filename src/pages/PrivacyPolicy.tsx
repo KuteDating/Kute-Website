@@ -1,4 +1,3 @@
-import React from 'react';
 import './legalPages.css'; // Make sure the path is correct
 
 const PrivacyPolicy = () => {
