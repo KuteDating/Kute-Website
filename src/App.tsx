@@ -16,6 +16,7 @@ import ContactUs from './pages/ContactUs.tsx';
 import ComingSoon from './pages/ComingSoon.tsx';
 import PrivacyPolicy from './pages/PrivacyPolicy.tsx';
 import DeleteAccount from './pages/DeleteAccount.tsx';
+import ChildSecurity from './pages/ChildSecurity.tsx';
 
 const Home = () => (
   <>
@@ -40,6 +41,8 @@ const App = () => {
         <Route path="/privacy-policy" element={<><Navbar /><PrivacyPolicy /><Footer /></>} />
         <Route path="/about" element={<><Navbar /><About /><Footer /></>} />
         <Route path="/delete-account" element={<><Navbar /><DeleteAccount /><Footer /></>} />
+        <Route path="/child-security" element={<><Navbar /><ChildSecurity /><Footer /></>} />
+ 
       </Routes>
     </Router>
   );

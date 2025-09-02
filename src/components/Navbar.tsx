@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import logo from '../assets/images/final-logo-kute.png';
+import logo from '../assets/images/logo.png';
 import '../components/Nabar.css';
 
 const Navbar = () => {
