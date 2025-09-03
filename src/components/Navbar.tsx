@@ -35,7 +35,7 @@ const Navbar = () => {
           <span></span>
         </div>
 
-        <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
+        <ul className={`text-white nav-links ${menuOpen ? 'open' : ''}`}>
           <li><button onClick={() => handleNavClick('#about')}>About</button></li>
           <li><button onClick={() => handleNavClick('#features')}>Features</button></li>
           <li><button onClick={() => handleNavClick('#download')}>Download</button></li>
